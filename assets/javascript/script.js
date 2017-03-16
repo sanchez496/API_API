@@ -96,7 +96,7 @@ function gifBuilder (obj){
 	subjectImage.addClass("gif");
 	gifDiv.prepend(p);
 	gifDiv.prepend(subjectImage);
-	gifDiv.appendTo("#gifContainer");
+	gifDiv.prependTo("#gifContainer");
 	
 }
 // Create function that traveres array of objects to gifBuilder
