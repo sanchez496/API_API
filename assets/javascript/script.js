@@ -1,4 +1,4 @@
-const baseURL = "http://api.giphy.com/v1/gifs/search?q=";
+const baseURL = "https://api.giphy.com/v1/gifs/search?q=";
 const apiKey = "&api_key=dc6zaTOxFJmzC&limit=10";
 
 var topics = ["metallica", "Cats", "Dogs", "Harley Davidson"];
